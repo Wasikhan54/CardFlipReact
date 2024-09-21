@@ -36,3 +36,66 @@
     transform: rotate(360deg);
   }
 }
+.mainCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh ;
+  flex-wrap: wrap;
+}
+.card{
+  width: 350px !important;
+  height: 25vh !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 20px;
+  background-color: #e6e6e6;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.mainContainer {
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333;
+  margin: 41px 0;
+}
+
+.mainCard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* Space between cards */
+  justify-content: center; /* Center the cards */
+}
+
+.card {
+  width: 200px;
+  height: 150px;
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Rounded corners */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow */
+  transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.card-content {
+  text-align: center;
+  padding: 10px;
+}
